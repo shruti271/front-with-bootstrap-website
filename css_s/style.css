@@ -1,0 +1,158 @@
+.anim span{
+    animation: ani 8s ease-in-out infinite;
+    animation-delay: calc(0.8s*var(--i));
+}
+@keyframes ani{
+    
+        0%{
+            transform: translateX(-50px);
+        }
+        25%{
+        transform: translateX(-50px);
+        }
+}
+.bgimg{
+    background-image: url('IMG20180816182254.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 760px;
+}
+
+.hearderset{
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+    font-size: 42px;
+}
+.hearderset h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+.ourservice{
+    padding: 100px 0px 60px;
+    height: 500px;
+}
+.imgsetting{    
+    border-radius: 50%;
+    height: 80px;
+    width: 30%;
+    background-color: ;
+}
+.fa-shoping-cart{
+    margin-top:50px;
+}
+.fa-desktop{
+    margin-top: 20px;
+}
+.fa-lock{
+    margin-top: 20px;
+}
+.rowsetting{
+    margin: 80px 0px !important;    
+}
+
+.rowsetting p{           
+    color: #6c757d;
+    padding: 10px;
+}
+.rowsetting h2{             
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+/*----------------------portfolio---------------*/
+.portfolio{
+height: 1000px;
+width: 100%;
+padding: 100px 0px 50px;
+}    
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+/*----------------------our team---------------*/
+.ourteam{
+    height: 600px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.ourteam h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.teamsetting{
+    margin-top: 50px !important;
+}
+.footer h6{
+    line-height: 50px;
+}
+/*-------------------------*/
+@media(min-width:992px){
+
+}
+@media(min-width:768px)and (max-width:991px)
+{
+    .ourservice{
+        height: 600px;
+    }
+    .profolio{
+        height: 200px;
+    }
+    .hearderset h1{
+        font-size: 60px;        
+    }
+}
+@media(min-width:575px)and(max-width:767px){
+    .ourservice{
+        height: 1200px;
+    }
+    .hearderset h2{
+        font-size: 40px;        
+    }
+    .hearderset h1{
+        font-size: 16px;        
+    }
+}
+@media(min-width:480px)and(max-width:574px){
+    .bgimg{        
+        height: 500px;
+    }    
+    .ourservice{
+        height: 1200px;
+    }
+    .hearderset h2{
+        font-size: 60px;        
+    }
+    .hearderset h1{
+        font-size: 12px;        
+    }
+  
+    
+}
+@media(max-width:479px)
+{
+    .bgimg{        
+        height: 500px;
+    }
+    .hearderset h2{
+        font-size: 22px;
+    }
+    .hearderset h1{
+        font-size: 32px;        
+    }
+    .ourservice{
+        height: 900px;
+    }
+    .portfolio{
+        height: 2700px;
+    }
+    .ourteam{
+        height: 1400px;;
+    }
+}
